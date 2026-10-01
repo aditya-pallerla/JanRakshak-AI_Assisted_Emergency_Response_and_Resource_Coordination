@@ -116,19 +116,20 @@ Full technical details are in **[JANRAKSHAK_PROJECT_DOCUMENTATION.md](JANRAKSHAK
 
 ## Good to know
 
-- This is a **hackathon prototype**. The risk model was trained on partly synthetic data and is not a validated real-world predictor.
+
 - Public map and routing servers have usage limits; self-host them for real use.
 
 ---
 
 ## Team
 
-- **[Your name]**: [role] · [GitHub] · [LinkedIn]
-- **[Teammate]**: [role] · [GitHub] · [LinkedIn]
-- **[Teammate]**: [role] · [GitHub] · [LinkedIn]
+Aditya Pallerla
+Avishkar Padwal
+Om Hojage
+Sohan Pangale
 
 <div align="center">
 
-Made for the **Global SDG + AI Hackathon 2026** · BV(DU)COEP ACM Student Chapter, Pune
+
 
 </div>
