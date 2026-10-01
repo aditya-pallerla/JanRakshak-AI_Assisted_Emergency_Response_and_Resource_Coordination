@@ -51,6 +51,33 @@ flowchart LR
 
 ---
 
+## Screenshots
+
+### Citizen side
+
+<table>
+  <tr>
+    <td width="50%" align="center"><b>Report an emergency</b><br/><sub>No login. Attach GPS or type a landmark, describe what's happening in any language.</sub></td>
+    <td width="50%" align="center"><b>Track the response live</b><br/><sub>Short tracking ID, live status, map and step-by-step progress.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/citizen-report.png" alt="Citizen emergency report form"/></td>
+    <td><img src="docs/screenshots/citizen-tracking.png" alt="Citizen live tracking page"/></td>
+  </tr>
+</table>
+
+### Command Center (coordinator)
+
+**AI risk assessment:** the report becomes a prioritised incident. The ML model scores the risk (here HIGH, 75/100) from the extracted evidence, and an uncertain location is flagged for verification.
+
+<img src="docs/screenshots/command-center-risk.webp" alt="Command Center showing the incident queue, map and AI risk assessment"/>
+
+**Dispatch and live route:** after the coordinator approves a unit, its real road route appears on the map, and the citizen's tracking page updates instantly.
+
+<img src="docs/screenshots/command-center-dispatch.webp" alt="Command Center showing a dispatched unit and its road route"/>
+
+---
+
 ## Results
 
 Compared with simply sending the nearest unit to each incident, in a 10-incident test:
@@ -71,7 +98,7 @@ You need **Node.js 20+**.
 
 ```bash
 git clone https://github.com/aditya-pallerla/JanRakshak-AI_Assisted_Emergency_Response_and_Resource_Coordination
-cd janrakshak
+cd JanRakshak-AI_Assisted_Emergency_Response_and_Resource_Coordination
 npm install
 cp .env.example .env
 npm run dev
@@ -123,10 +150,10 @@ Full technical details are in **[JANRAKSHAK_PROJECT_DOCUMENTATION.md](JANRAKSHAK
 
 ## Team
 
-Aditya Pallerla
-Avishkar Padwal
-Om Hojage
-Sohan Pangale
+- Aditya Pallerla
+- Avishkar Padwal
+- Om Hojage
+- Sohan Pangale
 
 <div align="center">
 
